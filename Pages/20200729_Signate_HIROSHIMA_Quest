@@ -1,10 +1,14 @@
 ◆2020/7/29 SIGNATE ひろしまquest【球種予測】と【コース予測】　結果：27/481(銀メダル)、69/284(銅メダル)
 
 ◎試したこと
-　・欠損値処理(Simple Inpute、fillna、dropna)　・ラベルエンコーディング　・one-hot-encoding
-　・特徴量選択(RFE、RFECV)　・次元削減(主成分分析、tsne)　
+　・欠損値処理(Simple Inpute、fillna、dropna)　
+  ・ラベルエンコーディング、one-hot-encoding
+　・特徴量選択(RFE、RFECV)　
+  ・次元削減(主成分分析、tsne)　
 　・特徴量追加(外部データ、ラグ変数、統計量データ、自分で生成したもの)
-　・アルゴル選択(LightGBM、MLPClassifier、Random Forest、Logistic regression)　・pseudo_labeling　・Advertisal_validation
+　・アルゴル選択(LightGBM、MLPClassifier、Random Forest、Logistic regression)　
+  ・pseudo_labeling　
+  ・Advertisal_validation
 　・stacking　・サブミットファイルのアンサンブル
 
 ◎所感
