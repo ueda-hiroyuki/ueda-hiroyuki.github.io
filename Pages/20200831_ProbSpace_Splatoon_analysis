@@ -59,3 +59,4 @@
   
 ・pseudo_labelingが非常に効いた。
   ⇒　さらに、lightgbmよりcatboostの方が安定して精度が良い
+  ⇒　target_encodingをトライしてみたが、リークが発生してしまいLocal CVとPublicのスコアに差が出てしまった。
