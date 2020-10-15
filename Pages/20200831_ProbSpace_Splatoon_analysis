@@ -63,4 +63,7 @@
   ⇒　target_encodingをトライしてみたが、リークが発生してしまいLocal CVとPublicのスコアに差が出てしまった。
   
 ・Stackingの効果はなかったように思える
-　⇒ lightgbm、catboost、random forest、mlpclassifierの4種 
+　⇒ lightgbm、catboost、random forest、mlpclassifierの4種
+ 
+ ・EDAの結果、学習データとテストデータの間に分布の差は確認できなかったため、Adversarital Validationは効果はなさそう
+  ⇒ 実際、変化なし
